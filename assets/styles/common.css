@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main);
+    background: var(--lightBlue);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
