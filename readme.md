@@ -1,0 +1,1 @@
+The site is live at https://kbatyrbayev.github.io/su_practice_2023/
