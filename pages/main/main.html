@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-<h1>Main html</h1>
-<script type="module" src="main.js"></script>
+    <div class="container">
+        <div class="left">
+            <a class="logo">
+                <img src="../../assets/icons/logo.svg" alt="icon-logo" class="logo__img">
+                <strong>AdminPage</strong>
+            </a>
+            <nav class="menu">
+                <div class="menu__title">
+                    Menu
+                </div>
+                <a href="#" class="menu__link active">
+                    <img src="../../assets/icons/main.svg" alt="logo-main">
+                    <span class="menu__text">Main</span>
+                </a>
+                <a href="../parsing/parsing.html" class="menu__link">
+                    <img src="../../assets/icons/parsing.svg" alt="logo-parsing">
+                    <span class="menu__text">Parsing</span>
+                </a>
+                <a href="" class="menu__link">
+                    <img src="../../assets/icons/profile.svg" alt="logo-profile">
+                    <span class="menu__text">Profile</span>
+                </a>
+                <a href="" class="menu__link">
+                    <img src="../../assets/icons/calendar.svg" alt="logo-calendar">
+                    <span class="menu__text">Calendar</span>
+                </a>
+            </nav>
+        </div>
+        <div class="right">
+            <div class="header">
+
+            </div>
+            <div class="body">
+                <div class="body__top">
+                    <div class="calendar">
+                        <img src="../../assets/icons/datePicker.svg" alt="date-picker-logo">
+                        <span>Sept 1, 2023 - May 25, 2023</span>
+                    </div>
+                    <div class="dropdown">
+                        <span>Daily</span>
+                        <img src="../../assets/icons/arrow.svg" alt="arrow-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
 </body>
+
 </html>
