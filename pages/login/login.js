@@ -1,3 +1,7 @@
+const user = {
+    login: 'admin',
+    password: 'admin'
+};
 let loginForm = document.getElementById("loginForm");
 let username = document.getElementById("username");
 let password = document.getElementById("password");
@@ -16,12 +20,12 @@ function onInput(event) {
 
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    if (username.value && password.value) {
+    if (username.value === user.login && password.value === user.password) {
         localStorage.setItem('isAuth', 'true');
         location.href = '../main/main.html';
     } else {
-        if (!username.value) addError(username);
-        if (!password.value) addError(password);
+        addError(username);
+        addError(password);
     }
 });
 
