@@ -8,5 +8,19 @@
 </head>
 <body>
   <h1>Parsing page</h1>
+  <textarea id="textarea"cols="30" rows="10"></textarea>
+  <button type="button" onclick="parse()">Parse</button>
+  <script>
+    
+    function parse() {
+      const textarea = document.getElementById('textarea').value.split('\n');
+      for(let i = 0; i < textarea; i++) {
+        console.log(textarea[i]);
+      }
+
+      console.log(textarea);
+    }
+    console.log(btn);
+  </script>
 </body>
 </html>
