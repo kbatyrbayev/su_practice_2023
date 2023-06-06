@@ -1,6 +1,6 @@
 const isAuth = localStorage.getItem("isAuth");
 if (isAuth) {
-  location.href = "//" + window.location.host + "/pages/main/main.html";
+  location.href = "/pages/main/main.html";
 }
 
 const user = {
